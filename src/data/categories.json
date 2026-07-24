@@ -1,0 +1,6 @@
+[
+  { "nombre": "blusa", "label": "BLUSA", "imagen": "https://res.cloudinary.com/dih9yygt3/image/upload/c_fill,g_auto,ar_4:5,q_auto:good,f_auto,w_450/v1776355295/blusa.jpg" },
+  { "nombre": "bolsa", "label": "BOLSA", "imagen": "https://res.cloudinary.com/dih9yygt3/image/upload/c_fill,g_auto,ar_4:5,q_auto:good,f_auto,w_450/v1776789410/Sin_t%C3%ADtulo_600_x_900_px_2.jpg" },
+  { "nombre": "jeans", "label": "JEANS", "imagen": "https://res.cloudinary.com/dih9yygt3/image/upload/c_fill,g_auto,ar_4:5,q_auto:good,f_auto,w_450/v1776787352/Sin_t%C3%ADtulo_600_x_900_px.jpg" },
+  { "nombre": "sandalia", "label": "SANDALIAS", "imagen": "https://res.cloudinary.com/dih9yygt3/image/upload/c_fill,g_auto,ar_4:5,q_auto:good,f_auto,w_450/v1776355063/sandalias.jpg" }
+]

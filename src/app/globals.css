@@ -1,0 +1,237 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --color-purple: #9b59b6;
+  --color-orange: #f39c12;
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-muted: #888888;
+  --color-border: #e8e8e8;
+  --max-width: 600px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Contenedor centrado mobile */
+.page-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  background: #fff;
+  min-height: 100vh;
+  padding-bottom: 72px;
+}
+
+/* Grid 2 columnas */
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+}
+
+/* Imagen 4:5 para categorías */
+.img-4-5 {
+  aspect-ratio: 4/5;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Imagen 3:4 para productos */
+.img-3-4 {
+  aspect-ratio: 3/4;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Badge ¡Últimas! */
+.badge-ultimas {
+  background: var(--color-orange);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 10px;
+  border-radius: 20px;
+  display: inline-block;
+  letter-spacing: 0.02em;
+}
+
+/* Nombre superpuesto en categoría */
+.cat-label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.65) 0%, transparent 100%);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  padding: 24px 12px 10px;
+  text-transform: uppercase;
+}
+
+/* Barra de navegación inferior fija */
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: var(--max-width);
+  background: #fff;
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  z-index: 100;
+}
+
+.bottom-nav a {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 10px 0 14px;
+  text-decoration: none;
+  color: var(--color-muted);
+  font-size: 11px;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+.bottom-nav a.active,
+.bottom-nav a:hover {
+  color: var(--color-purple);
+}
+
+/* Header de subpágina */
+.sub-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--color-border);
+  background: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.sub-header button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.sub-header h1 {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+/* Talla botón */
+.talla-btn {
+  border: 1.5px solid var(--color-border);
+  background: #fff;
+  color: var(--color-text);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+  min-width: 40px;
+  text-align: center;
+}
+
+.talla-btn.active {
+  border-color: var(--color-purple);
+  background: var(--color-purple);
+  color: #fff;
+}
+
+/* Buscador */
+.search-input {
+  width: 100%;
+  border: 1.5px solid var(--color-border);
+  border-radius: 24px;
+  padding: 10px 16px 10px 44px;
+  font-size: 14px;
+  font-family: var(--font-sans);
+  outline: none;
+  background: #f8f8f8;
+  color: var(--color-text);
+  transition: border-color 0.15s;
+}
+
+.search-input:focus {
+  border-color: var(--color-purple);
+  background: #fff;
+}
+
+/* Filtro talla scroll horizontal */
+.talla-filter {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 10px 16px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.talla-filter::-webkit-scrollbar { display: none; }
+
+.talla-filter-btn {
+  flex-shrink: 0;
+  border: 1.5px solid var(--color-border);
+  background: #fff;
+  color: var(--color-text);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.talla-filter-btn.active {
+  border-color: var(--color-purple);
+  background: var(--color-purple);
+  color: #fff;
+}
+
+/* Ampliar imagen */
+.zoom-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.92);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.zoom-overlay img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}

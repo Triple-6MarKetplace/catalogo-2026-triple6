@@ -1,0 +1,22 @@
+[
+  { "id": "BL001", "nombre": "BL001", "categoria": "blusa", "tallas": ["S","M","L","XL"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&q=80" },
+  { "id": "BL002", "nombre": "BL002", "categoria": "blusa", "tallas": ["S","M","L"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1551163943-3f7253a97e52?w=600&q=80" },
+  { "id": "BL003", "nombre": "BL003", "categoria": "blusa", "tallas": ["M","L","XL"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80" },
+  { "id": "BL004", "nombre": "BL004", "categoria": "blusa", "tallas": ["S","M"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=600&q=80" },
+  { "id": "JN001", "nombre": "JN001", "categoria": "jeans", "tallas": ["28","30","32","34"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=600&q=80" },
+  { "id": "JN002", "nombre": "JN002", "categoria": "jeans", "tallas": ["28","30","32"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=600&q=80" },
+  { "id": "JN003", "nombre": "JN003", "categoria": "jeans", "tallas": ["30","32","34","36"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1582418702059-97ebafb35d09?w=600&q=80" },
+  { "id": "JN004", "nombre": "JN004", "categoria": "jeans", "tallas": ["28","30"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&q=80" },
+  { "id": "SD001", "nombre": "SD001", "categoria": "sandalia", "tallas": ["35","36","37","38"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=600&q=80" },
+  { "id": "SD002", "nombre": "SD002", "categoria": "sandalia", "tallas": ["36","37","38","39"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1603487742131-4160ec999306?w=600&q=80" },
+  { "id": "SD003", "nombre": "SD003", "categoria": "sandalia", "tallas": ["35","36","37"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1562273138-f46be4ebdf33?w=600&q=80" },
+  { "id": "SD004", "nombre": "SD004", "categoria": "sandalia", "tallas": ["37","38","39","40"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1596703263926-eb0762ee17e4?w=600&q=80" },
+  { "id": "BO001", "nombre": "BO001", "categoria": "bolsa", "tallas": ["U"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=600&q=80" },
+  { "id": "BO002", "nombre": "BO002", "categoria": "bolsa", "tallas": ["U"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=600&q=80" },
+  { "id": "BO003", "nombre": "BO003", "categoria": "bolsa", "tallas": ["U"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=600&q=80" },
+  { "id": "BO004", "nombre": "BO004", "categoria": "bolsa", "tallas": ["U"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=600&q=80" },
+  { "id": "BL005", "nombre": "BL005", "categoria": "blusa", "tallas": ["S","M","L"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&q=80" },
+  { "id": "JN005", "nombre": "JN005", "categoria": "jeans", "tallas": ["28","30","32"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=600&q=80" },
+  { "id": "SD005", "nombre": "SD005", "categoria": "sandalia", "tallas": ["36","37","38"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=600&q=80" },
+  { "id": "BO005", "nombre": "BO005", "categoria": "bolsa", "tallas": ["U"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&q=80" }
+]

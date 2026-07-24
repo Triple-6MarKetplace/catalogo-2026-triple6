@@ -1,0 +1,21 @@
+# Catálogo Lookbook 2026 — TODO
+
+- [x] Inicializar proyecto Next.js 14 con TypeScript y Tailwind CSS
+- [x] Definir tipos TypeScript para productos
+- [x] Crear base de datos JSON de productos (12 productos de ejemplo)
+- [x] Crear base de datos JSON de categorías (4 categorías)
+- [x] Configurar next.config.mjs con soporte de imágenes remotas
+- [x] Diseño global: paleta premium (obsidian, gold, ivory), tipografías Playfair Display + Inter
+- [x] Componente Navbar mobile-first con menú hamburguesa
+- [x] Componente Footer elegante
+- [x] Componente ProductCard con imagen 4:5, hover effect y badge de categoría
+- [x] Componente SearchBar con navegación a /buscar
+- [x] Página Home: hero oscuro, buscador, categorías, destacados, recientes, banner Airtm
+- [x] Página Categorías: filtro por tabs, grid responsive
+- [x] Página Buscador: búsqueda en tiempo real con useMemo
+- [x] Página Detalle de producto: imagen 3:4, info completa, botón Airtm dinámico, relacionados
+- [x] Página 404 personalizada
+- [x] Integración Airtm: URL dinámica con amount y memo por producto
+- [x] Build exitoso con NODE_ENV=production (19 páginas estáticas)
+- [x] Guía de despliegue en Vercel para Octavio Rodríguez
+- [x] Guía de actualización de inventario sin tocar código
