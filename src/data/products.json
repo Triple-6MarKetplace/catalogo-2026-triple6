@@ -18,14 +18,19 @@
   { "id": "BL005", "nombre": "BL005", "categoria": "blusa", "tallas": ["S","M","L"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=600&q=80" },
   { "id": "JN005", "nombre": "JN005", "categoria": "jeans", "tallas": ["28","30","32"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=600&q=80" },
   { "id": "SD005", "nombre": "SD005", "categoria": "sandalia", "tallas": ["36","37","38"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=600&q=80" },
-  { "id": "BO005", "nombre": "BO005", "categoria": "bolsa", "tallas": ["U"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&q=80" }
-  ,{ 
+  { "id": "BO005", "nombre": "BO005", "categoria": "bolsa", "tallas": ["U"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&q=80" },
+    {
     "id": "JZ958",
     "nombre": "JZ958",
     "precio": "$37.99",
     "categoria": "jeans",
     "tallas": ["S", "M", "L"],
     "ultimas": true,
-  Screenshot_2026-07-24-18-08-34-293_com.android.chrome.jpg ]
+    "imagen": "https://res.cloudinary.com/TU_CLOUD/image/upload/v1/JZ958.jpg"
   }
+]
+
+    
+  
+
  
