@@ -1,4 +1,4 @@
-[[
+[
   { "id": "BL001", "nombre": "BL001", "categoria": "blusa", "tallas": ["S","M","L","XL"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=600&q=80" },
   { "id": "BL002", "nombre": "BL002", "categoria": "blusa", "tallas": ["S","M","L"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1551163943-3f7253a97e52?w=600&q=80" },
   { "id": "BL003", "nombre": "BL003", "categoria": "blusa", "tallas": ["M","L","XL"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=600&q=80" },
@@ -19,7 +19,7 @@
   { "id": "JN005", "nombre": "JN005", "categoria": "jeans", "tallas": ["28","30","32"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=600&q=80" },
   { "id": "SD005", "nombre": "SD005", "categoria": "sandalia", "tallas": ["36","37","38"], "ultimas": true, "imagen": "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=600&q=80" },
   { "id": "BO005", "nombre": "BO005", "categoria": "bolsa", "tallas": ["U"], "ultimas": false, "imagen": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=600&q=80" },
-  {
+ {
     "id": "JZ958",
     "nombre": "JZ958",
     "precio": "$37.99",
@@ -29,4 +29,6 @@
     "imagen": "https://res.cloudinary.com/TU_CLOUD/image/upload/v1/JZ958.jpg"
   }
 ]
-  
+    "imagen": "https://res.cloudinary.com/TU_CLOUD/image/upload/v1/JZ958.jpg"
+  }
+]
